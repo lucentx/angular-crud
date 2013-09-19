@@ -6,6 +6,7 @@
       <th>First Name</th>
       <th>Last Name</th>
       <th>Address</th>
+      <th>Options</th>
     </tr>
   </thead>
   <tbody>
@@ -14,6 +15,7 @@
       <td>{{user.first_name}}</td>
       <td>{{user.last_name}}</td>
       <td>{{user.address}}</td>
+      <td><a href="#/edit/{{user.id}}" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-pencil"></i></button></td>
     </tr>
   </tbody>
 </table>
