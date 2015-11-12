@@ -1,8 +1,8 @@
 <?php
 
-require 'Slim/Slim.php';
+require 'vendor/autoload.php';
 
-$app = new Slim();
+$app = new \Slim\Slim();
 $app->get('/users', 'getUsers');
 $app->get('/users/:id', 'getUser');
 $app->post('/add_user', 'addUser');
